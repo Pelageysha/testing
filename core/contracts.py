@@ -21,3 +21,14 @@ RESOURCE_DATA_SCHEMA = {
     },
     "required": ["id", "name", "year", "color", "pantone_value"]
 }
+
+CREATED_USER_SCHEM = {
+    "type": "object",
+    "properties": {
+        "name": {"type": "string"},
+        "job": {"type": "string"},
+        "id": {"type": "string"},
+        "cratedAt": {"type": "string"}
+    },
+    "required": ["name", "job", "id", "createdAt"]
+}
